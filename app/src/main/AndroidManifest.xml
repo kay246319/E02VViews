@@ -11,9 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E02VViews"
         tools:targetApi="31">
+        <activity android:name=".SpinnersActivity" android:label="@string/action_spinners" /> />
         <activity
-            android:name=".CheckboxesActivity" android:label="@string/action_checkboxes"
-            android:exported="false" />
+            android:name=".CheckboxesActivity"
+            android:exported="false"
+            android:label="@string/action_checkboxes" />
         <activity
             android:name=".ButtonsActivity"
             android:label="@string/action_buttons" />
